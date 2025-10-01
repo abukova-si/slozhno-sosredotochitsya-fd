@@ -1,1 +1,1 @@
-https://github.com/abukova-si/ono-tebe-nado-fd
+https://github.com/abukova-si/slozhno-sosredotochitsya-fd
