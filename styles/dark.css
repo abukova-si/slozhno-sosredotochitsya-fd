@@ -17,3 +17,6 @@
   --h2-color: rgba(255, 0, 112, 1);
   --button-color: rgba(255, 0, 112, 1);
 }
+html.theme-dark .rec-label {
+  display: inline-flex;
+}

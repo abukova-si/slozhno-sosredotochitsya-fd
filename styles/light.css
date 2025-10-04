@@ -17,4 +17,21 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+html.theme-light .rec-label {
+  display: none;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --page-bg: url("../images/cover-image-light.png");
+    --page-bg-color: #fff1f7;
+    --accent-color: rgba(255, 141, 203, 1);
+    --color-text: rgba(53, 52, 48, 1);
+    --header-color: rgba(255, 194, 230, 1);
+    --h2-color: rgba(53, 52, 48, 1);
+    --button-color: rgba(53, 52, 48, 1);
+  }
 
+  .rec-label {
+    display: none;
+  }
+}
