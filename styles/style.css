@@ -5,10 +5,12 @@
   background-image: var(--page-bg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 .header {
   display: grid;
   min-height: 768px;
+  height: 100vh;
   padding-top: 20px;
   position: relative;
   grid-template-rows: 1fr min-content 1fr;
@@ -52,11 +54,10 @@
 }
 .header__text {
   grid-row: 3;
-  max-width: 491px;
+  max-width: 500px;
   width: 100%;
   justify-self: end;
   align-self: center;
-  max-width: 500px;
   background-color: var(--accent-color);
   font-size: 18px;
   line-height: 23.4px;
@@ -86,7 +87,7 @@
 }
 .header__theme-menu-button_active {
   border: 1px solid var(--button-color);
-  pointer-events: none; 
+  pointer-events: none;
 }
 .header__theme-menu-button:focus-visible {
   outline: none;
@@ -519,9 +520,6 @@
 .header.corner,
 .footer.corner {
   position: relative;
-}
-@media (max-width: 768px) {
-
 }
 @media (max-width: 375px) {
   .footer {
