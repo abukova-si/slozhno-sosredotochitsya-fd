@@ -293,7 +293,6 @@
 @media (max-width: 375px) {
   .what {
     grid-template-columns: 1fr;
-    margin-bottom: 47px;
     margin-bottom: 30px;
   }
 }
