@@ -16,7 +16,14 @@
   --header-color: rgba(219, 0, 255, 1);
   --h2-color: rgba(255, 0, 112, 1);
   --button-color: rgba(255, 0, 112, 1);
+  --corner-color: rgba(255, 0, 112, 1);
+  --title-color: rgba(0, 0, 40, 1);
 }
 html.theme-dark .rec-label {
   display: inline-flex;
+}
+@media (prefers-color-scheme: dark) {
+  html:not(.theme-light) .rec-label {
+    display: inline-flex;
+  }
 }
