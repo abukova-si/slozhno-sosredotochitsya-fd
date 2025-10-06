@@ -18,6 +18,7 @@
   --button-color: rgba(255, 0, 112, 1);
   --corner-color: rgba(255, 0, 112, 1);
   --title-color: rgba(0, 0, 40, 1);
+  --button-color-hover: rgba(255, 0, 112, 0.4);
 }
 html.theme-dark .rec-label {
   display: inline-flex;
